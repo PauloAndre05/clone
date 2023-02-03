@@ -1,0 +1,22 @@
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.nav_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    padding: 1.2rem;
+    color: #222;
+}
+
+.nav_bar img{
+    width: 300px;
+    margin-left: -1.5rem;
+}

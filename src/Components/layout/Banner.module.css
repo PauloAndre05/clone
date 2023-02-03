@@ -1,0 +1,32 @@
+.container_banner{
+    background-image: url("../../img/banner1.jpg");
+    width: 100%;
+    height: 550px;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.267);
+    background-blend-mode: color;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.container_banner div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container_banner h1{
+    width: 20rem;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    line-height: 3rem;
+    color: #ffffff;
+}
+
+.container_banner p{
+    width: 37rem;
+    font-size: 1.5rem;
+    color:  #ffffff;
+}

@@ -1,0 +1,51 @@
+.example{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+
+.example h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.example p{
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.container_imgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.imgs{
+    background-image: url("../../img/temp1.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: 180px;
+    background-position: top;
+    position: relative;
+}
+
+.container_quote{
+    background-color: rgb(172, 211, 93);
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    color: #fff;
+}

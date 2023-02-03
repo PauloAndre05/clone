@@ -1,0 +1,30 @@
+.sessao_about h1{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.sessao_about > p{
+    text-align: center;
+    margin: 2.5rem;
+}
+
+
+.sessao2_about{
+    display: flex;
+    gap: 7rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+
+.sessao2_about img{
+    width: 550px;
+}
+
+.sessao2_about p{
+    width: 25rem;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    color: rgba(128, 128, 128, 0.712);
+}
